@@ -153,6 +153,8 @@ This project is tracked in the GitHub repository:
   ```
 
 - The live site is updated automatically after each successful build.
+- You can manage deployments and view build logs at the Cloudflare Pages dashboard:
+  <https://dash.cloudflare.com>
 
 ## Deploying Dynamic Content with Cloudflare Workers
 
