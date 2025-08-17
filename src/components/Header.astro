@@ -1,16 +1,24 @@
 ---
 import { SITE_TITLE } from '../consts';
 import HeaderLink from './HeaderLink.astro';
+import { Image } from 'astro:assets';
+import logo from '../../public/DK.png';
 ---
 
 <header>
 	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<h2>
+			<a href="/">
+				<Image src={logo} alt="DK Logo" width={32} height={32} />
+				{SITE_TITLE}
+			</a>
+		</h2>
 		<div class="internal-links">
 			<HeaderLink href="/">Home</HeaderLink>
 			<HeaderLink href="/blog">Blog</HeaderLink>
 			<HeaderLink href="/about">About</HeaderLink>
 		</div>
+		<!-- Social media links commented out
 		<div class="social-links">
 			<a href="https://m.webtoo.ls/@astro" target="_blank">
 				<span class="sr-only">Follow Astro on Mastodon</span>
@@ -40,6 +48,7 @@ import HeaderLink from './HeaderLink.astro';
 				>
 			</a>
 		</div>
+		-->
 	</nav>
 </header>
 <style>
@@ -57,11 +66,23 @@ import HeaderLink from './HeaderLink.astro';
 	h2 a,
 	h2 a.active {
 		text-decoration: none;
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
 	}
 	nav {
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: center;
+		gap: 2rem;
+		padding: 1rem 0;
+	}
+	nav h2 {
+		position: absolute;
+		left: 1rem;
+	}
+	.internal-links {
+		display: flex;
 	}
 	nav a {
 		padding: 1em 0.5em;

@@ -31,7 +31,7 @@
 	font-display: swap;
 }
 body {
-	font-family: "Atkinson", sans-serif;
+	font-family: "Verdana", sans-serif, "Atkinson";
 	margin: 0;
 	padding: 0;
 	text-align: left;
@@ -40,7 +40,7 @@ body {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: rgb(var(--gray-dark));
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 1.7;
 }
 main {
@@ -60,16 +60,16 @@ h6 {
 	line-height: 1.2;
 }
 h1 {
-	font-size: 3.052em;
+	font-size: 2.6em;
 }
 h2 {
-	font-size: 2.441em;
+	font-size: 2.2em;
 }
 h3 {
-	font-size: 1.953em;
+	font-size: 1.853em;
 }
 h4 {
-	font-size: 1.563em;
+	font-size: 1.463em;
 }
 h5 {
 	font-size: 1.25em;
@@ -85,10 +85,10 @@ a:hover {
 	color: var(--accent);
 }
 p {
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 }
 .prose p {
-	margin-bottom: 2em;
+	margin-bottom: 1.0em;
 }
 textarea {
 	width: 100%;
@@ -113,6 +113,7 @@ code {
 pre {
 	padding: 1.5em;
 	border-radius: 8px;
+	font-size: 90%;
 }
 pre > code {
 	all: unset;
@@ -121,7 +122,7 @@ blockquote {
 	border-left: 4px solid var(--accent);
 	padding: 0 0 0 20px;
 	margin: 0px;
-	font-size: 1.333em;
+	font-size: 90%;
 }
 hr {
 	border: none;
@@ -153,3 +154,4 @@ hr {
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
 }
+
