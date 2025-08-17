@@ -35,9 +35,7 @@ in Pittsburgh. I work as a researcher-cum-manager in my role at
 [CERT](https://www.cert.org/), the computer security division of the [Software
 Engineering Institute](https://www.sei.cmu.edu), a lab operated by Carnegie
 Mellon. My research interest is in experimental design for technology evaluation
-in computer security. I'm in a PhD program at the [Volgenau School of
-Engineering](https://volgenau.gmu.edu/) at [George Mason
-University](https://www.gmu.edu).
+in computer security.
 
 My wife and I travel quite a bit, and we both love learning about the history,
 culture, foodways and language of new places. I really enjoy learning about how

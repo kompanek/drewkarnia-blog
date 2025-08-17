@@ -13,7 +13,7 @@ const { title, description, pubDate, updatedDate, heroImage, author } = Astro.pr
 
 <html lang="en">
 	<head>
-		<BaseHead title={title} description={description} />
+		<BaseHead title={title} description={description ?? ''} />
 		<style>
 			main {
 				width: calc(100% - 2em);
@@ -48,6 +48,12 @@ const { title, description, pubDate, updatedDate, heroImage, author } = Astro.pr
 			.date {
 				margin-bottom: 0.5em;
 			}
+			.description {
+				margin-top: 0.5em;
+				margin-bottom: 1.5em;
+				font-style: italic;
+				font-size: 0.85em;
+			}
 			.last-updated-on {
 				font-style: italic;
 			}
@@ -66,6 +72,7 @@ const { title, description, pubDate, updatedDate, heroImage, author } = Astro.pr
 				<div class="prose">
 					<div class="title">
 						<h1>{title}</h1>
+						{description && <div class="description">{description}</div>}
 						<div class="date">
 							<FormattedDate date={pubDate} />
 							{

@@ -1,12 +1,12 @@
 ---
 title: "Do you prefer Doctor or Doctress?"
-description: "Discussions in Poland around the most appropriate word and grammatical gender to use when referring to a woman by her job title"
+description: "On the grammatical gender of job titles in Polish"
 author: "Andrew Kompanek"
 pubDate: "Jan 19 2018"
 heroImage: "../../assets/wordcloud-professions-wide.png"
 ---
 
-Recently I learned about discussions in Poland around the most appropriate word
+I've recently learned about discussions in Poland around the most appropriate word
 and grammatical gender to use when referring to a woman by her job title. Turns
 out, Polish speakers have historically used masculine forms of nouns to refer to
 members of a profession of both sexes, rather than using an explicitly feminine
