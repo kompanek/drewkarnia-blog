@@ -6,17 +6,54 @@ pubDate: "Jan 19 2018"
 heroImage: "../../assets/wordcloud-professions-wide.png"
 ---
 
-Recently I learned about discussions in Poland around the most appropriate word and grammatical gender to use when referring to a woman by her job title. Turns out, Polish speakers have historically used masculine forms of nouns to refer to members of a profession of both sexes, rather than using an explicitly feminine (in the grammatical sense) version of the same noun, but in the 20th century that started changing, reflecting the reality of more women in professions, and signaling a sort grammatical gender parity. I haven’t seen much comment on this English, so I figured I’d write about it. I’ve always found this sort of thing interesting, and language change is on my mind after having read John McWhorter’s [Words on the Move](https://www.amazon.com/Words-Move-English-Still-Literally/dp/1627794719/). In fact, this is in the spirit of many of the topics McWhorter covers on on the [Lexicon Valley Podcast](http://www.slate.com/articles/podcasts/lexicon_valley.html) (a favorite of mine).
+Recently I learned about discussions in Poland around the most appropriate word
+and grammatical gender to use when referring to a woman by her job title. Turns
+out, Polish speakers have historically used masculine forms of nouns to refer to
+members of a profession of both sexes, rather than using an explicitly feminine
+(in the grammatical sense) version of the same noun, but in the 20th century
+that started changing, reflecting the reality of more women in professions, and
+signaling a sort grammatical gender parity. I haven’t seen much comment on this
+English, so I figured I’d write about it. I’ve always found this sort of thing
+interesting, and language change is on my mind after having read John
+McWhorter’s [Words on the
+Move](https://www.amazon.com/Words-Move-English-Still-Literally/dp/1627794719/).
+In fact, this is in the spirit of many of the topics McWhorter covers on on the
+[Lexicon Valley
+Podcast](http://www.slate.com/articles/podcasts/lexicon_valley.html) (a favorite
+of mine).
 
 ![professions wordcloud](/wordcloud-professions-wide.png)
 
-Consider a female medical specialist like a cardiologist. She might choose to refer to herself as a kardiolog (a masculine noun in Polish) or use the new coinage kardiolożka (a feminine noun) on her resume. Similarly, when you address her, she may prefer you use a masculine noun as part of the honorific construction, _Pani doktor_, or the feminine noun, _Pani doktorka_. An academic, say a female sociologist, faces the same dilemma: she needs to choose between _socjolog_ and the less common _socjolożka_. Women in business and politics (think director, manager, president, prime minister) also have a decision to make. In the public sphere, businesses, newspapers and government offices must decide how to refer to women in these positions, and those decisions have cultural and political implications.
+Consider a female medical specialist like a cardiologist. She might choose to
+refer to herself as a kardiolog (a masculine noun in Polish) or use the new
+coinage kardiolożka (a feminine noun) on her resume. Similarly, when you address
+her, she may prefer you use a masculine noun as part of the honorific
+construction, _Pani doktor_, or the feminine noun, _Pani doktorka_. An academic,
+say a female sociologist, faces the same dilemma: she needs to choose between
+_socjolog_ and the less common _socjolożka_. Women in business and politics
+(think director, manager, president, prime minister) also have a decision to
+make. In the public sphere, businesses, newspapers and government offices must
+decide how to refer to women in these positions, and those decisions have
+cultural and political implications.
 
-As part of an interview 2015, Professor Jan Miodek, a Polish linguist, language maven, and a sort of unofficial authority on proper language, touched on the issue in an [article on dzennik.pl](http://wiadomosci.dziennik.pl/opinie/artykuly/501342,jezykoznawca-prof-jan-miodek-korporacje-i-korpomowa-gwalca-jezyk-polski-rozmowa-dziennik-pl.html):
+As part of an interview 2015, Professor Jan Miodek, a Polish linguist, language
+maven, and a sort of unofficial authority on proper language, touched on the
+issue in an [article on
+dzennik.pl](http://wiadomosci.dziennik.pl/opinie/artykuly/501342,jezykoznawca-prof-jan-miodek-korporacje-i-korpomowa-gwalca-jezyk-polski-rozmowa-dziennik-pl.html):
 
-> In the 1970’s, we [started using feminine versions of nouns]: _dyrektorka_ (business director), _tłumaczka_ (translator), _reżyserka_ (movie director), and _reporterka_ (reporter). Then came [the usage of the feminine honorific followed by a masculine noun]: _dyrektor_, _reżyser_, _tłumacz_ (translator), and _reporter_. In the case of these senior roles in business, the masculine form somehow conveys a more serious impression.
+> In the 1970’s, we [started using feminine versions of nouns]: _dyrektorka_
+> (business director), _tłumaczka_ (translator), _reżyserka_ (movie director),
+> and _reporterka_ (reporter). Then came [the usage of the feminine honorific
+> followed by a masculine noun]: _dyrektor_, _reżyser_, _tłumacz_ (translator),
+> and _reporter_. In the case of these senior roles in business, the masculine
+> form somehow conveys a more serious impression.
 
-On the other hand, he goes on to say that for title of _minister_ (as in “minister of defense"), the masculine form feels unnatural to him, and that _ministerka_ (feminine) sounds more natural. He notes that using _ministerka_ is consistent with trends in other languages: the Czech noun _ministryně_ (feminine, from _ministr_) is in common usage, as is the German feminine noun for chancellor _Kanzlerin_ (from _Kanzler_).
+On the other hand, he goes on to say that for title of _minister_ (as in
+“minister of defense"), the masculine form feels unnatural to him, and that
+_ministerka_ (feminine) sounds more natural. He notes that using _ministerka_ is
+consistent with trends in other languages: the Czech noun _ministryně_
+(feminine, from _ministr_) is in common usage, as is the German feminine noun
+for chancellor _Kanzlerin_ (from _Kanzler_).
 
 ## Who gets to decide?
 
