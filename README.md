@@ -32,9 +32,27 @@ or CDN.
 
 ## Available Commands
 
-- `npm run dev` - Start development server at <http://localhost:4321/>
+- `npm run dev` - Start development server at <http://localhost:4321/> (local only)
+- `npm run dev -- --host` - Start dev server accessible on your local network
+  (LAN/mobile testing)
 - `npm run build` - Build the site for production (generates static HTML files)
 - `npm run preview` - Preview the production build locally
+
+### Previewing on your phone or other devices
+
+To test your site on your phone or other devices on the same WiFi network:
+
+1. Run the dev server with LAN access:
+
+  ```sh
+  npm run dev -- --host
+  ```
+
+1. Find your computer's local IP address (e.g., 192.168.1.42).
+2. On your phone, open a browser and go to the address shown in the terminal
+   (e.g., `http://192.168.1.42:4321` or similar).
+
+This lets you preview changes instantly on your phone without pushing to Cloudflare.
 
 ## What's Included
 

@@ -8,6 +8,13 @@
 			"isBackground": true,
 			"problemMatcher": [],
 			"group": "build"
+		},
+		{
+			"label": "Astro Dev Server (LAN)",
+			"type": "shell",
+			"command": "npm run dev -- --host",
+			"isBackground": true,
+			"group": "build"
 		}
 	]
 }
