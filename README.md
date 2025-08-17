@@ -1,10 +1,14 @@
 # Astro Static Blog Site
 
-This is an experimental Astro blog setup for learning how to build static sites with GitHub-backed content.
+This is an experimental Astro blog setup for learning how to build static sites with
+GitHub-backed content.
 
 ## What is this project?
 
-This is a **static blog site** built with Astro - a modern web framework that generates fast, lightweight websites. Unlike dynamic sites that generate pages on-demand, static sites pre-build all pages as HTML files that can be served quickly from any web server or CDN.
+This is a **static blog site** built with Astro - a modern web framework that generates
+fast, lightweight websites. Unlike dynamic sites that generate pages on-demand, static
+sites pre-build all pages as HTML files that can be served quickly from any web server
+or CDN.
 
 ## What we've set up
 
@@ -18,7 +22,8 @@ This is a **static blog site** built with Astro - a modern web framework that ge
 
 ### npm (Node Package Manager)
 
-- **What it is**: A tool for downloading and managing code libraries, plus running project tasks
+- **What it is**: A tool for downloading and managing code libraries, plus running
+  project tasks
 - **Think of it like**: An app store + recipe book for your project
 - **What we used it for**:
   - Downloaded the Astro blog template
@@ -55,6 +60,21 @@ This is a **static blog site** built with Astro - a modern web framework that ge
 2. **Add new posts**: Create new `.md` or `.mdx` files in the blog folder
 3. **Customize pages**: Edit files in `src/pages/` (like `about.astro`)
 4. **Update site info**: Modify `src/consts.ts` for site title, description, etc.
+
+## Authoring Content: .astro vs .md Files
+
+You can create content for your site using either:
+
+- **Markdown (`.md` or `.mdx`) files:**
+  - Best for blog posts, articles, and long-form content.
+  - Supports frontmatter for metadata (title, date, etc.).
+  - Simple, readable, and easy to manage.
+- **Astro (`.astro`) files:**
+  - Best for custom pages, layouts, or when you need to mix content with
+    components or logic.
+  - Allows you to use Astro components, JavaScript/TypeScript, and advanced features.
+
+Use Markdown for most content, and `.astro` files when you need more control or interactivity.
 
 ## Why Static Sites?
 
@@ -110,9 +130,96 @@ Here are the key files to edit when customizing your site:
 ## Learning Resources
 
 - [Astro Documentation](https://docs.astro.build) - Official Astro docs
-- [Content Collections Guide](https://docs.astro.build/en/guides/content-collections/) - Managing blog content
+- [Content Collections Guide](https://docs.astro.build/en/guides/content-collections/)
+  - Managing blog content
 - [Astro Discord](https://astro.build/chat) - Community support
+
+## Project Repository and Workflow
+
+This project is tracked in the GitHub repository:
+[kompanek/drewkarnia-blog](https://github.com/kompanek/drewkarnia-blog)
+
+- All source code, content, and configuration are version-controlled in this repo.
+- Development is done locally, with changes committed and pushed to the `main`
+  branch.
+- Cloudflare Pages is connected to this repository and automatically builds and
+  deploys the site on every push to `main`.
+- To trigger a new deployment, simply push changes to GitHub:
+
+  ```sh
+  git add .
+  git commit -m "Describe your change"
+  git push
+  ```
+
+- The live site is updated automatically after each successful build.
+
+## Deploying Dynamic Content with Cloudflare Workers
+
+By default, this site is deployed as a static site using Cloudflare Pages. If you
+want to add dynamic features (such as server-side rendering, API endpoints,
+authentication, or edge logic), you can deploy your Astro site using Cloudflare
+Workers.
+
+### Why use Cloudflare Workers?
+
+- **Server-side rendering (SSR):** Generate pages dynamically at request time.
+- **APIs and edge logic:** Run custom JavaScript/TypeScript at the edge, close to
+  your users.
+- **Authentication, personalization, or A/B testing:** Handle requests
+  dynamically based on user/session data.
+- **Integrate with other services:** Fetch data from APIs or databases at
+  runtime.
+
+### How to deploy Astro with Cloudflare Workers
+
+1. Install the Cloudflare adapter:
+
+   ```sh
+   npm install @astrojs/cloudflare
+   ```
+
+2. Update your `astro.config.mjs`:
+
+   ```js
+   import { defineConfig } from 'astro/config';
+   import cloudflare from '@astrojs/cloudflare';
+
+   export default defineConfig({
+     output: 'server',
+     adapter: cloudflare(),
+   });
+   ```
+
+3. Add a `wrangler.toml` file to configure your Worker (see Cloudflare docs for
+   details).
+4. Set your build and deploy commands in Cloudflare:
+   - Build command: `npm run build`
+   - Deploy command: `npx wrangler deploy`
+
+For more information, see the
+[Astro Cloudflare adapter docs](https://docs.astro.build/en/guides/deploy/cloudflare/)
+and [Cloudflare Workers documentation](https://developers.cloudflare.com/workers/).
+
+## Working with Branches for Staging Changes
+
+If you want to make major changes without publishing them immediately, use a
+separate branch in your GitHub repository:
+
+- Create a new branch for your changes:
+
+  ```sh
+  git checkout -b my-feature-branch
+  ```
+
+- Commit and push your changes to the branch as you work.
+- The live site will only update when you merge your branch into `main` (or the
+  branch configured for deployment in Cloudflare Pages).
+- You can use pull requests to review and test changes before merging.
+
+This workflow lets you stage, review, and test updates before they go live.
 
 ---
 
-*This project was created using the Astro blog template and is ready for experimentation with static site generation.*
+*This project was created using the Astro blog template and is ready for experimentation
+with static site generation.*
