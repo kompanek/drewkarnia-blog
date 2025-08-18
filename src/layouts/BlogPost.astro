@@ -83,7 +83,7 @@ const { title, description, pubDate, updatedDate, heroImage, author } = Astro.pr
 						<div class="date">
 							<FormattedDate date={pubDate} />
 						</div>
-						{author && <div class="author">by {author}</div>}
+						{author && <div class="author">{author}</div>}
 					</div>
 					<slot />
 				</div>

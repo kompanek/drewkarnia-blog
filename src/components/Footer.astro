@@ -3,7 +3,7 @@ const today = new Date();
 ---
 
 <footer>
-   <span class="copyright">Site content &copy; {today.getFullYear()} Andrew&nbsp;Kompanek - All&nbsp;rights&nbsp;reserved</span>
+   <span class="copyright"> &copy; {today.getFullYear()} Andrew&nbsp;Kompanek </span>
    <div class="social-links">
 	   <a href="https://www.linkedin.com/in/kompanek/" target="_blank" rel="noopener noreferrer">
 		   <span class="sr-only">Connect on LinkedIn</span>
@@ -17,7 +17,10 @@ const today = new Date();
 <style>
 	footer {
 		padding: 2em 1em 6em 1em;
+/*
 		background: linear-gradient(var(--gray-gradient)) no-repeat;
+		*/
+		background: var(--pale-blue-gray);
 		color: rgb(var(--gray));
 		text-align: center;
 	}

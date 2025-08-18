@@ -1,5 +1,5 @@
 ---
-import { SITE_TITLE } from '../consts';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import HeaderLink from './HeaderLink.astro';
 import { Image } from 'astro:assets';
 import logo from '../../public/DK.png';
@@ -9,8 +9,13 @@ import logo from '../../public/DK.png';
 	<nav>
 		<h2>
 			<a href="/">
-				<Image src={logo} alt="DK Logo" width={48} height={48} />
-				{SITE_TITLE}
+				<div class="site-header">
+					<div class="site-brand">
+						<Image src={logo} alt="DK Logo" width={48} height={48} class="site-logo" />
+						<div class="site-title">{SITE_TITLE}</div>
+					</div>
+					<div class="site-description">{SITE_DESCRIPTION}</div>
+				</div>
 			</a>
 		</h2>
 		<div class="internal-links">
@@ -33,7 +38,8 @@ import logo from '../../public/DK.png';
 	header {
 		margin: 0;
 		padding: 0 1em;
-		background: white;
+		/*background: white; */
+		background: var(--pale-blue-gray);
 		box-shadow: 0 2px 8px rgba(var(--black), 5%);
 	}
 	h2 {
@@ -75,6 +81,41 @@ import logo from '../../public/DK.png';
 		text-decoration: none;
 		border-bottom-color: var(--accent);
 	}
+
+ 
+	.site-header {
+  		display: flex;
+		flex-direction: column;
+		align-items: flex-start; /* or center if you want */
+	}
+
+	.site-brand {
+	  display: flex;
+	  align-items: center;
+	  gap: 0.5em; /* space between logo and title */
+	}
+
+	.site-logo {
+	  width: 40px; /* adjust as needed */
+	  height: 40px;
+	  border-radius: 0;
+	  height: auto;
+	}
+
+	.site-title {
+	  font-size: 1.25em;
+	  font-family: 'Comfortaa', sans-serif;
+	  text-align: left;
+	  /* other styles */
+	}
+
+	.site-description {
+	  margin-top: 1em;
+	  font-size: 0.55em;
+	  color: #666;
+	  text-align: left;
+	}
+
 	.social-links,
 	.social-links a {
 		display: flex;
