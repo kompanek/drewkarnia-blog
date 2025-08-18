@@ -24,7 +24,6 @@ In fact, this is in the spirit of many of the topics McWhorter covers on on the
 Podcast](http://www.slate.com/articles/podcasts/lexicon_valley.html) (a favorite
 of mine).
 
-
 ![professions wordcloud](/wordcloud-professions-wide.png)
 
 Consider a female medical specialist like a cardiologist. She might choose to
