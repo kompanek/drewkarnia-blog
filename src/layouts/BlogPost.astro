@@ -47,6 +47,10 @@ const { title, description, pubDate, updatedDate, heroImage, author } = Astro.pr
 			}
 			.date {
 				margin-bottom: 0.5em;
+				font-size: 0.85em;
+			}
+			.author {
+				font-size: 0.85em;
 			}
 			.description {
 				margin-top: 0.5em;
@@ -56,6 +60,9 @@ const { title, description, pubDate, updatedDate, heroImage, author } = Astro.pr
 			}
 			.last-updated-on {
 				font-style: italic;
+				text-align: center;
+				font-size: 0.85em;
+			}
 			}
 		</style>
 	</head>
@@ -75,19 +82,18 @@ const { title, description, pubDate, updatedDate, heroImage, author } = Astro.pr
 						{description && <div class="description">{description}</div>}
 						<div class="date">
 							<FormattedDate date={pubDate} />
-							{
-								updatedDate && (
-									<div class="last-updated-on">
-										Last updated on <FormattedDate date={updatedDate} />
-									</div>
-								)
-							}
 						</div>
 						{author && <div class="author">by {author}</div>}
-						<hr />
 					</div>
 					<slot />
 				</div>
+										{
+				updatedDate && (
+					<div class="last-updated-on">
+						Last updated on <FormattedDate date={updatedDate} />
+					</div>
+				)
+			}
 			</article>
 		</main>
 		<Footer />

@@ -40,7 +40,7 @@ body {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: rgb(var(--gray-dark));
-	font-size: clamp(12px, 2vw + 1px, 19px);
+	font-size: clamp(12px, 2vw - 1.5px, 19px);
 	line-height: 1.7;
 }
 main {
