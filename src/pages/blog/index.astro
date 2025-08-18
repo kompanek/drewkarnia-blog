@@ -24,6 +24,7 @@ const posts = (await getCollection('blog')).sort(
 			   ul {
 				   position: relative;
 			   }
+			   /*
 			   ul::before {
 				   content: "";
 				   position: absolute;
@@ -35,19 +36,21 @@ const posts = (await getCollection('blog')).sort(
 				   border-radius: 2px;
 				   z-index: 0;
 			   }
+			   */
 			   ul li {
 				   display: block;
 				   width: 100%;
 				   box-sizing: border-box;
-				   margin-bottom: 1em;
+				   margin: 1.5em 0 1em 0;
 				   background: #fff;
 				   border: 1.5px solid #e3eaf2;
 				   border-radius: 4px;
 				   box-shadow: 0 1px 4px rgba(90,139,176,0.04);
-				   padding: 1em 1em 1em 2.5em;
+				   padding: 2em 2.5em 2em 2.5em;
 				   position: relative;
 				   z-index: 1;
 			   }
+			   /*
 			   ul li::before {
 				   content: "";
 				   position: absolute;
@@ -60,6 +63,8 @@ const posts = (await getCollection('blog')).sort(
 				   border-radius: 50%;
 				   z-index: 2;
 			   }
+			   */
+				/*
 				ul li::after {
 					content: "";
 					position: absolute;
@@ -72,6 +77,7 @@ const posts = (await getCollection('blog')).sort(
 					border-radius: 2px;
 					z-index: 1;
 				}
+				*/
 			   ul li {
 				   display: block;
 				   width: 100%;
@@ -85,6 +91,7 @@ const posts = (await getCollection('blog')).sort(
 				   position: relative;
 				   z-index: 1;
 			   }
+			   /*
 			   ul li::before {
 				   content: "";
 				   position: absolute;
@@ -96,7 +103,9 @@ const posts = (await getCollection('blog')).sort(
 				   border-radius: 50%;
 				   z-index: 2;
 			   }
+			   */
 	
+			   /*
 			   @media (max-width: 720px) {
 					ul li::before {
 						left: 10px;
@@ -110,8 +119,10 @@ const posts = (await getCollection('blog')).sort(
 						width: 18px;
 					}
 				}
+			   */
 
 
+			   /*
 			   @media (orientation: landscape) {
 					ul li::before {
 						left: 10px;
@@ -125,6 +136,7 @@ const posts = (await getCollection('blog')).sort(
 						width: 18px;
 					}
 				}
+			   */
 				 
 			ul li a {
 				text-decoration: none;

@@ -8,7 +8,7 @@ import Header from '../components/Header.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage, author } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, author, topic } = Astro.props;
 ---
 
 <html lang="en">
@@ -45,10 +45,18 @@ const { title, description, pubDate, updatedDate, heroImage, author } = Astro.pr
 			.title h1 {
 				margin: 0 0 0.5em 0;
 			}
+	
+
 			.date {
-				margin-bottom: 0.5em;
-				font-size: 0.85em;
+				margin: 0;
+				color: rgb(var(--gray));
+				font-family: "Comfortaa", sans-serif;
+				text-transform: uppercase;
+				font-size: 0.85rem;
+				letter-spacing: 0.15em;
+				line-height: 1.7;
 			}
+
 			.author {
 				font-size: 0.85em;
 			}
@@ -79,11 +87,15 @@ const { title, description, pubDate, updatedDate, heroImage, author } = Astro.pr
 				<div class="prose">
 					<div class="title">
 						<h1>{title}</h1>
-						{description && <div class="description">{description}</div>}
-						<div class="date">
+				
+						<p class="date">
 							<FormattedDate date={pubDate} />
-						</div>
-						{author && <div class="author">{author}</div>}
+							{topic && <> / {topic}</>}
+							{author && <> / {author}</>}
+						</p>
+
+
+						
 					</div>
 					<slot />
 				</div>
