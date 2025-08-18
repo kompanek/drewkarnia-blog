@@ -27,7 +27,7 @@ const posts = (await getCollection('blog')).sort(
 			   ul::before {
 				   content: "";
 				   position: absolute;
-				   left: 1.1em;
+				   left: 24px;
 				   top: 0;
 				   bottom: 0;
 				   width: 3px;
@@ -51,8 +51,9 @@ const posts = (await getCollection('blog')).sort(
 			   ul li::before {
 				   content: "";
 				   position: absolute;
-				   left: 0.75em;
-				   top: 1.5em;
+				   left: 16px;
+				   top: 50%;
+				   transform: translateY(-50%);
 				   width: 10px;
 				   height: 10px;
 				   background: #5a8bb0;
@@ -62,9 +63,10 @@ const posts = (await getCollection('blog')).sort(
 				ul li::after {
 					content: "";
 					position: absolute;
-					left: -1em; /* horizontal start position */
-					top: 3.15em; /* vertical position */
-					width: 1.75em; /* length of the line */
+					left: 0px; /* horizontal start position, aligns with dot */
+					top: 50%;
+					transform: translateY(-50%);
+					width: 26px; /* length of the line, matches dot center to vertical line */
 					height: 3px;
 					background: #e3eaf2;
 					border-radius: 2px;
@@ -97,26 +99,30 @@ const posts = (await getCollection('blog')).sort(
 	
 			   @media (max-width: 720px) {
 					ul li::before {
-						left: 0.5em;   /* move dot closer to the vertical line */
-						top: 5em;    /* adjust vertical alignment if needed */
+						left: 10px;
+						top: 50%;
+						transform: translateY(-50%);
 					}
 					ul li::after {
-						left: -1.4em;     /* start horizontal line at new dot center */
-						top: 5.2em;   /* align with new dot center */
-						width: 2.5em;    /* adjust length if needed */
+						left: 0px;
+						top: 50%;
+						transform: translateY(-50%);
+						width: 18px;
 					}
 				}
 
 
 			   @media (orientation: landscape) {
 					ul li::before {
-						left: 0.5em;   /* move dot closer to the vertical line */
-						top: 5em;    /* adjust vertical alignment if needed */
+						left: 10px;
+						top: 50%;
+						transform: translateY(-50%);
 					}
 					ul li::after {
-						left: -1.7em;     /* start horizontal line at new dot center */
-						top: 5.2em;   /* align with new dot center */
-						width: 3em;    /* adjust length if needed */
+						left: 0px;
+						top: 50%;
+						transform: translateY(-50%);
+						width: 18px;
 					}
 				}
 				 
