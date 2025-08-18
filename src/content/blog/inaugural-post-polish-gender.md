@@ -4,7 +4,7 @@ description: "On the grammatical gender of job titles in Polish"
 author: "Andrew Kompanek"
 pubDate: "Jan 19 2018"
 updatedDate: "Aug 18 2025"
-heroImage: "../../assets/wordcloud-professions-wide.png"
+heroImage: "/wordcloud-professions.png"
 ---
 
 I've recently learned about discussions in Poland around the most appropriate word
@@ -22,6 +22,7 @@ In fact, this is in the spirit of many of the topics McWhorter covers on on the
 [Lexicon Valley
 Podcast](http://www.slate.com/articles/podcasts/lexicon_valley.html) (a favorite
 of mine).
+
 
 ![professions wordcloud](/wordcloud-professions-wide.png)
 
