@@ -1,7 +1,7 @@
 ---
 title: "Do you prefer Doctor or Doctress?"
 description: "On the grammatical gender of job titles in Polish"
-author: "Andrew Kompanek"
+author: "Drew"
 pubDate: "Jan 19 2018"
 updatedDate: "Aug 18 2025"
 heroImage: "/wordcloud-professions.png"

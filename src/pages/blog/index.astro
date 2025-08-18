@@ -59,9 +59,17 @@ const posts = (await getCollection('blog')).sort(
 				   border-radius: 50%;
 				   z-index: 2;
 			   }
-				   border-radius: 2px;
-				   z-index: 0;
-			   }
+				ul li::after {
+					content: "";
+					position: absolute;
+					left: -1em; /* horizontal start position */
+					top: 3.15em; /* vertical position */
+					width: 1.75em; /* length of the line */
+					height: 3px;
+					background: #e3eaf2;
+					border-radius: 2px;
+					z-index: 1;
+				}
 			   ul li {
 				   display: block;
 				   width: 100%;
@@ -79,7 +87,7 @@ const posts = (await getCollection('blog')).sort(
 				   content: "";
 				   position: absolute;
 				   left: 0.75em;
-				   top: 1.5em;
+				   top: 3em;
 				   width: 10px;
 				   height: 10px;
 				   background: #5a8bb0;
@@ -87,6 +95,30 @@ const posts = (await getCollection('blog')).sort(
 				   z-index: 2;
 			   }
 	
+			   @media (max-width: 720px) {
+					ul li::before {
+						left: 0.5em;   /* move dot closer to the vertical line */
+						top: 5em;    /* adjust vertical alignment if needed */
+					}
+					ul li::after {
+						left: -1.4em;     /* start horizontal line at new dot center */
+						top: 5.2em;   /* align with new dot center */
+						width: 2.5em;    /* adjust length if needed */
+					}
+				}
+
+
+			   @media (orientation: landscape) {
+					ul li::before {
+						left: 0.5em;   /* move dot closer to the vertical line */
+						top: 5em;    /* adjust vertical alignment if needed */
+					}
+					ul li::after {
+						left: -1.7em;     /* start horizontal line at new dot center */
+						top: 5.2em;   /* align with new dot center */
+						width: 3em;    /* adjust length if needed */
+					}
+				}
 				 
 			ul li a {
 				text-decoration: none;
@@ -125,7 +157,7 @@ const posts = (await getCollection('blog')).sort(
 				line-height: 1.3;
 				font-size: 1em;
 			}
-			.description {
+			.excerpt {
 				color: black;
 
 			}
@@ -135,6 +167,7 @@ const posts = (await getCollection('blog')).sort(
 				font-family: "Comfortaa", sans-serif;
 				text-transform: uppercase;
 				font-size: 0.85rem;
+				letter-spacing: 0.15em; 
 			}
 			ul li a:hover h4,
 			ul li a:hover .date {
@@ -192,30 +225,33 @@ const posts = (await getCollection('blog')).sort(
 					{
 						posts.map((post) => (
 							<li>
-								<a href={`/blog/${post.id}/`}>
+								
 									<div class="post-row">
 										<!-- 
 										{typeof post.data.heroImage === "string" && post.data.heroImage && (
 											<img src={post.data.heroImage} width="80" height="80" alt="" class="hero-thumb" />
 										)} -->
 										<div class="post-meta">
+											<a href={`/blog/${post.id}/`}>
 											<h4 class="title">{post.data.title}</h4>
+											</a>
 											<p class="date">
 												<FormattedDate date={post.data.pubDate} />
 												{post.data.topic && <> / {post.data.topic}</>}
 												{post.data.author && <> / {post.data.author}</>}
 											</p>
 											<hr/>
-											<div class="description">
-												{post.data.description}
-											</div>
+											{post.data.excerpt && (
+												<div class="excerpt">
+													{post.data.excerpt}
+													<a href={`/blog/${post.id}/`}>
+														<br /><br />Continue reading...
+													</a>
+												</div>
+											)}
 										</div>
-
-				
-
-
 									</div>
-								</a>
+								
 							</li>
 						))
 					}
