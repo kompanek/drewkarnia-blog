@@ -38,7 +38,9 @@ import logo from '../../public/DK.png';
 	header {
 		margin: 0;
 		padding: 0 1em;
-		/*background: white; */
+		opacity: 0.85;
+		/* Fixed position but only when >720px of horizontal space */
+		position:fixed; top:0; left:0; width:100vw; z-index:1000;
 		background: var(--pale-blue-gray);
 		box-shadow: 0 2px 8px rgba(var(--black), 5%);
 	}
@@ -59,7 +61,7 @@ import logo from '../../public/DK.png';
 		align-items: center;
 		justify-content: center;
 		gap: 2rem;
-		padding: 1rem 0;
+	/* padding: 1rem 0;  */
 	}
 	   nav h2 {
 		   position: relative;
@@ -87,12 +89,14 @@ import logo from '../../public/DK.png';
   		display: flex;
 		flex-direction: column;
 		align-items: flex-start; /* or center if you want */
+		margin:0; padding:0;
 	}
 
 	.site-brand {
 	  display: flex;
 	  align-items: center;
 	  gap: 0.5em; /* space between logo and title */
+	  margin:0; padding:0;
 	}
 
 	.site-logo {
@@ -118,25 +122,41 @@ import logo from '../../public/DK.png';
 
 	.social-links,
 	.social-links a {
+		margin-right: 1em;
+		
 		display: flex;
 	}
 	   @media (max-width: 720px) {
+			header {
+				position: static;
+			}
+			main {
+				/* padding-top:250px; */
+			}
 		   nav {
 			   flex-direction: column;
-			   align-items: stretch;
-			   gap: 0.1rem;
+			   align-items: stretch; 
+			   gap: 0rem; 
+			   padding-bottom:0;
+			
 		   }
 		   nav h2 {
 			   font-size: clamp(1.2em, 6vw, 1.5em);
 			   text-align: center;
 			   word-break: break-word;
 			   white-space: normal;
-			   margin-bottom: 0.1em;
+			   margin-bottom: 0.0em;
 		   }
 		   .internal-links {
-			   justify-content: center;
-			   flex-wrap: wrap;
+				line-height:1;
+				margin-top:0;
+				margin-bottom:0;
+			    justify-content: center;
+			    flex-wrap: wrap;
 		   }
+		   .internal-links a {
+			    font-size: 0.95em;		
+			}
 		   .social-links {
 			   display: None; /* Hide social links on mobile header - not enough room */
 		   }

@@ -50,6 +50,7 @@ main {
 	max-width: calc(100% - 2em);
 	margin: auto;
 	padding: 3em 1em;
+	padding-top: 150px;
 }
 h1,
 h2,
@@ -133,10 +134,8 @@ hr {
 	border-top: 1px solid rgb(var(--gray-light));
 }
 @media (max-width: 720px) {
-   body {
-	   /*font-size: clamp(14px, 4vw, 15px); */
-	   font-size: 14px;
-   }
+  
+
    h1 {
 	   font-size: clamp(1.5em, 7vw, 2em);
    }
@@ -174,4 +173,3 @@ hr {
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
 }
-

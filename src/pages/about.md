@@ -1,8 +1,10 @@
 ---
+title: "About Drewkarnia"
 layout: ../layouts/BaseLayout.astro
-title: "About Me"
 description: "Learn more about me"
 ---
+
+
 
 ![strzeminkski](/drewkarnia-strzeminski.png)
 

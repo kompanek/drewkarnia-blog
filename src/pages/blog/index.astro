@@ -24,19 +24,19 @@ const posts = (await getCollection('blog')).sort(
 			   ul {
 				   position: relative;
 			   }
-			   /*
+			  
 			   ul::before {
 				   content: "";
 				   position: absolute;
-				   left: 24px;
-				   top: 0;
-				   bottom: 0;
+				   left: 0px;
+				   top: -100px;
+				   bottom: -100px;
 				   width: 3px;
 				   background: #e3eaf2;
 				   border-radius: 2px;
 				   z-index: 0;
 			   }
-			   */
+
 			   ul li {
 				   display: block;
 				   width: 100%;
@@ -50,34 +50,24 @@ const posts = (await getCollection('blog')).sort(
 				   position: relative;
 				   z-index: 1;
 			   }
-			   /*
+
+			/* Circle on the "timeline" */
 			   ul li::before {
 				   content: "";
 				   position: absolute;
-				   left: 16px;
-				   top: 50%;
-				   transform: translateY(-50%);
-				   width: 10px;
-				   height: 10px;
-				   background: #5a8bb0;
+				   left: -52px;
+				   top: 2em;
+				   /*transform: translateY(-50%);*/
+				   width: 20px;
+				   height: 20px;
+				   background: white;
+				   border-color: #e3eaf2;
 				   border-radius: 50%;
-				   z-index: 2;
+				   border-width:2px;
+				   border-style:solid;
+				   z-index: 3;
 			   }
-			   */
-				/*
-				ul li::after {
-					content: "";
-					position: absolute;
-					left: 0px; /* horizontal start position, aligns with dot */
-					top: 50%;
-					transform: translateY(-50%);
-					width: 26px; /* length of the line, matches dot center to vertical line */
-					height: 3px;
-					background: #e3eaf2;
-					border-radius: 2px;
-					z-index: 1;
-				}
-				*/
+
 			   ul li {
 				   display: block;
 				   width: 100%;
@@ -91,19 +81,6 @@ const posts = (await getCollection('blog')).sort(
 				   position: relative;
 				   z-index: 1;
 			   }
-			   /*
-			   ul li::before {
-				   content: "";
-				   position: absolute;
-				   left: 0.75em;
-				   top: 3em;
-				   width: 10px;
-				   height: 10px;
-				   background: #5a8bb0;
-				   border-radius: 50%;
-				   z-index: 2;
-			   }
-			   */
 	
 			   /*
 			   @media (max-width: 720px) {
