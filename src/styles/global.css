@@ -125,7 +125,8 @@ blockquote {
 	border-left: 4px solid var(--accent);
 	padding: 0 0 0 20px;
 	margin: 0px;
-	font-size: 90%;
+	font-family: "Merriweather", Georgia, serif;
+	font-size: 95%;
 }
 hr {
 	border: none;
