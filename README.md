@@ -137,6 +137,26 @@ Here are the key files to edit when customizing your site:
 - **Check out included blog posts**: Browse `src/content/blog/` for examples
 - **Customize blog post layout**: Modify `src/layouts/BlogPost.astro`
 
+## Blog Post Properties
+
+Blog posts in this project are authored as Markdown (`.md`) files and support
+the following frontmatter properties:
+
+- **`title`** (string, required): The title of the blog post.
+- **`description`** (string, optional): A short description of the post.
+- **`excerpt`** (string, optional): A longer excerpt or summary of the post.
+- **`author`** (string, required): The name of the author.
+- **`topic`** (string, optional): The topic or category of the post.
+- **`pubDate`** (string, required): The publication date of the post (e.g., `Jan
+  19 2018`).
+- **`updatedDate`** (string, optional): The date the post was last updated.
+- **`updatedExplanation`** (string, optional): A note explaining what was updated.
+- **`heroImage`** (string, optional): The path to the hero image for the post.
+
+These properties allow you to customize the metadata and appearance of each blog
+post. To add a new post, create a Markdown file in the `src/content/blog/`
+directory and include the desired frontmatter properties.
+
 ## Next Steps
 
 1. **Visit your site**: The development server is running at <http://localhost:4321/>
