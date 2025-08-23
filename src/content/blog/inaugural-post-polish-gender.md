@@ -12,6 +12,7 @@ author: "Drew"
 topic: "language"   
 pubDate: "Jan 19 2018"
 updatedDate: "Aug 18 2025"
+updatedExplanation: "Minor edits to address typos and the like."
 heroImage: "/wordcloud-professions.png"
 ---
 
