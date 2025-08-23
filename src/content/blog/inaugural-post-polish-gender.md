@@ -7,8 +7,7 @@ excerpt: |
   out, Polish speakers have historically used masculine forms of nouns to refer to
   members of a profession of both sexes, rather than using an explicitly feminine
   (in the grammatical sense) version of the same noun, but in the 20th century
-  that started changing, reflecting the reality of more women in professions, and
-  signaling a sort grammatical gender parity...
+  that started changing...
 author: "Drew"
 topic: "language"   
 pubDate: "Jan 19 2018"
