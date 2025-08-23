@@ -68,6 +68,17 @@ const posts = (await getCollection('blog')).sort(
 				   z-index: 3;
 			   }
 
+				/* Special style for the first li item */
+				ul li:first-child::before {
+					left: -58px;
+					width: 30px; /* Larger circle */
+					height: 30px;
+				    background: lightgray;
+				    border-color: #e3eaf2;
+					border-width: 4px; /* Thicker border */
+				}
+
+
 			   ul li {
 				   display: block;
 				   width: 100%;
