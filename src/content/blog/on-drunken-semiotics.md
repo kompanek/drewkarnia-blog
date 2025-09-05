@@ -1,5 +1,5 @@
 ---
-title: "A Treatise on the Semiotics of Shit-facedness"
+title: "Groundwork for a Treatise on the Semiotics of Shit-facedness"
 description: ""
 author: "Drew"
 topic: "language"
@@ -7,22 +7,30 @@ pubDate: "Sep 5 2025"
 publish: true
 ---
 
-NOTE: This is a work in progress. Nobody should be reading this, but if you do
-keep that in mind!
+_NOTE: This is a work in progress. Nobody should be reading this. It's
+not good, not ready for prime time, and is probably full of all sorts
+of incoherent nonsense and misinformation. Probably typos too._
 
-Before we get to the topic of this little essay, a disclaimer.
+![A Drunken Jabberwocky](/Drunken-Jabberwocky.png)
 
-If you've ever tried to master a foreign language in adulthood you will have at
-some point realized that the words of that second language have remained a
-blunt, crude  tools, at least when compared to the sounds and syntax of your
-native language. In fact, as I'm sure you've realized no amount of conscious
-study will ever produce the same results as the unconscious, mysterious forces
-that have worked their magic on the mind of someone who has spent their life
-actively engaging in a culture and language community. Living the language.
-EThere are associations that come with every word, phrase and idiom, shades of
-literal meaning and connotation, whose significance will elude even the most
-conscientious student of a second language. It's one of those inescapable facts
-of life: death, taxes and the inelasticity of the adult brain.
+Before we get to the topic of this little essay, a disclaimer. A lengthy,
+discursive disclaimer, written in the second person, composed of sentences with
+entirely too many clauses.
+
+If you've ever tried to master a foreign language in adulthood, and you're
+neurotically self aware and self critical, you've almost certainly spent some
+time frustrated the crudity of the language you can command even at your
+sharpest, at least when compared to your ability to use the sounds and syntax of
+your native language to express yourself. You've probably spent entirely too
+much time lamenting the unavoidable conclusion that conscious study, no matter
+how intense and sustained, will never produce the same results as the
+unconscious, mysterious forces that turned you into a fluent speaker of English
+(or whatever happens to be your first language). There's no substitute for
+living in a language as a young person. There are associations that come with
+every word, phrase and idiom, shades of literal meaning and connotation, whose
+significance will elude even the most conscientious student of a second
+language. It's one of those inescapable facts of life: death, taxes and the
+inelasticity of the adult brain.
 
 That shouldn't stop you, or anyone of else from plumbing the depths of another
 language. And it certainly doesn't stop me from analyzing the Polish language
@@ -80,32 +88,30 @@ alcohol-related language in an English speaker's mind.
 In Polish, the stalwart, work-a-day equivalent of the word "drunk" is "pijany".
 Its literal meaning and etymology is very close to drunk. The verb to drink in
 Polish is "pić". It is the adjective form of that verb--the masculine form found
-in a dictionary--comes from a basic, general term for consuming liquids. It is
-interesting that Poland's quintessential distilled liquor, vodka, or "wòdka"
-literally means "little water". The essential beverage. This is of course no
-more surprising than the French construction "l'eau de vie" or the many calques
-that all trace back to Latin "Aqua vitae", notably in all those anise-flavored
-aquavits of Northern Europe.
-
-Of course, "pijany" occupies the same place as as "drunk" in the Polish
-speaker's mind. It sits somewhere near the center of an equally rich semantic
-web of descriptive words for drunkenness. The elderly friend who feels a happy
-buzz after a drinking a tipple of his favorite black currant nalewka, might
-report being "wstawiony", an adjective form descended from a rather generic,
-neutral verb "wstawić" (to "put into place"). Despite not having the descriptive
-quality of "tipsy", a Polish speaker will tell you that its _usage_ is the same,
-and in that sense the _meaning_ is the same even though the words share no
-literal meaning. In terms of intensity, judgment and vulgarity, most Poles will
-likely tell you that the near equivalent of "shit-faced" is probably
-"napierdolony", an adjective form of a vulgar verb that means "to fuck" in its
-literal and figurative vulgar senses (I'm not entirely sure how rude "pissed" is
-in British English, but I think that this translation does not entirely work). I
-suppose "fucked up" might also be a fine translation, though in (American)
-English, this phrase (to me) feels more appropriate for describing the effect of
-drugs. I'll also note (this is highly subjective) that it shares more
-aesthetically with "shit faced" than "fucked up". Polish also has many
-euphemisms, including its own older expressions like "na rauszu" (which comes
-directly from te German word Rausch for drunk or tipsy which is related to
+in a dictionary--comes from a basic, general term for consuming liquids. (As a
+related aside, I'll note that Poland's quintessential distilled liquor, vodka,
+or "wódka" literally means "little water". Not surprising for the essential
+beverage, especially considering the even more celebratory French construction
+"l'eau de vie" and their Northern European cousin, aquavit, which both trace
+back to  Latin "Aqua vitae".) The word "pijany" occupies the same place as as
+"drunk" in the Polish speaker's mind. It sits somewhere near the center of an
+equally rich semantic web of descriptive words for drunkenness. The elderly
+friend who feels a happy buzz after a drinking a tipple of his favorite black
+currant nalewka, might report being "wstawiony", an adjective form descended
+from a rather generic, neutral verb "wstawić" (to "put into place"). Despite not
+having the descriptive quality of "tipsy", a Polish speaker will tell you that
+its _usage_ is the same, and in that sense the _meaning_ is the same even though
+the words share no literal meaning. In terms of intensity, judgment and
+vulgarity, most Poles will likely tell you that the near equivalent of
+"shit-faced" is probably "napierdolony", an adjective form of a vulgar verb that
+means "to fuck" in its literal and figurative vulgar senses (I'm not entirely
+sure how rude "pissed" is in British English, but I think that this translation
+does not entirely work). I suppose "fucked up" might also be a fine translation,
+though in (American) English, this phrase (to me) feels more appropriate for
+describing the effect of drugs. I'll also note (this is highly subjective) that
+it shares more aesthetically with "shit faced" than "fucked up". Polish also has
+many euphemisms, including its own older expressions like "na rauszu" (which
+comes directly from te German word Rausch for drunk or tipsy which is related to
 "rush" in English which is itself interesting), which also happens to be the
 title of that fine Mads Mikkelsen film "Druk", translated into English as
 "Another Round". I'll pull that particular thread later since it touches on the
@@ -114,13 +120,13 @@ to how drinking habits and the culture around drinking varies across Europe
 (it's this sort of content you should be taking with a grain of salt; c.f., my
 earlier disclaimer). Finally, like English, in the legal system you're going to
 see "nietrzeźwy" is something very close to "not sober", formal, neutral even
-medical/scientific. 
+medical/scientific.
 
-
+More to come...
 
 ## Notes
 
-Ideas:
+I have several ideas for how to approach fleshing this out:
 
 - Find a way to cite examples from the web and/or from books
 - See if I can keep the tone light and comic, less staid than my other blog entry
@@ -129,11 +135,12 @@ Ideas:
   show the words and expressions
 - Create an accompanying video
 - Create a language "cheat sheet", possibly based on the notes below.
-- Colocutions (sp?) involving drunk like "stinking drunk" in English
+- Collocations (sp?) involving drunk like "stinking drunk" in English
 - Letting out the peacock ("puścic pawia" (sp?))
 - Find that article about ambivalence toward pigs, that weird Arabic-Polish paper
 - Cite that Wet versus Dry communities paper.
-- Look at the Mads Mikkelson move title translations, maybe as part of the wet-dry distiction.
+- Look at the Mads Mikkelson move title translations, maybe as part of the wet-dry
+  distinction you see in the academic literature.
 
 Themes:
 
@@ -157,9 +164,8 @@ from the most polite/euphemistic to the most vulgar.
 - **po spożyciu alkoholu** – very official, euphemistic.  
 - **pod wpływem** – neutral, commonly used.
 
----
-
 ## Polite / Euphemistic / Humorous
+
 - **wstawiony** – slightly drunk, common and polite.  
 - **podchmielony** – gentle, suggests a beer or two.  
 - **na rauszu** – slightly old-fashioned, elegant euphemism.  
