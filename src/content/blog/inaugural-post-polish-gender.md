@@ -14,6 +14,7 @@ pubDate: "Jan 19 2018"
 updatedDate: "Aug 18 2025"
 updatedExplanation: "Minor edits to address typos and the like."
 heroImage: "/wordcloud-professions.png"
+publish: true
 ---
 
 I've recently learned about discussions in Poland around the most appropriate word

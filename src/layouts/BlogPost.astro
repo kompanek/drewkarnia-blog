@@ -9,6 +9,11 @@ import Header from '../components/Header.astro';
 type Props = CollectionEntry<'blog'>['data'];
 
 const { title, description, pubDate, updatedDate, heroImage, author, topic, updatedExplanation } = Astro.props;
+const { publish } = Astro.props;
+if (publish === false) {
+	console.warn("Skipping draft post");
+	throw new Error("Skipping draft post");
+}
 ---
 
 <html lang="en">
