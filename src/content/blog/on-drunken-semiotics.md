@@ -11,7 +11,7 @@ _NOTE: This is a work in progress. Nobody should be reading this. It's
 not good, not ready for prime time, and is probably full of all sorts
 of incoherent nonsense and misinformation. Probably typos too._
 
-![A Drunken Jabberwocky](/Drunken-Jabberwocky.png)
+![A Drunken Jabberwocky](../../assets/Drunken-Jabberwocky.png)
 
 Before we get to the topic of this little essay, a disclaimer. A lengthy,
 discursive disclaimer, written in the second person, composed of sentences with
